@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { routes, AnimatedRoutes } from "./pages/routes";
 
 function App() {
-  const [slide, setSlide] = React.useState(22);
+  const [slide, setSlide] = React.useState(1);
   const slideCount = routes.length - 1;
   const navigate = useNavigate();
 
