@@ -21,6 +21,7 @@ import Slide13 from "./Slide13";
 import Slide14 from "./Slide14";
 import Slide15 from "./Slide15";
 import Slide16 from "./Slide16";
+import Slide17 from "./Slide17";
 
 export const routes = [
   {
@@ -97,10 +98,14 @@ export const routes = [
   },
   {
     path: "/slide-18",
-    element: <Slide21 />,
+    element: <Slide17 />,
   },
   {
     path: "/slide-19",
+    element: <Slide21 />,
+  },
+  {
+    path: "/slide-20",
     element: <Slide22 />,
   },
 ];
